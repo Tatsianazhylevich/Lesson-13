@@ -5,9 +5,10 @@ let usersFeelings = prompt(`Как твои дела, ${userName}?`);
 let usersDinner = prompt('Что вкусное сегодня кушал(а)?');
 let computerAnswerAndBye = prompt('К сожалению я робот и не кушаю, поэтому ваши человечьи вкусы мне не близки. Прощайте....', 'А так хорошо начинали, прощай!')
 
+
 result = 'Привет, как тебя зовут?' + '\n' + userName + '\n' + 
 `Как твои дела, ${userName}?` + '\n' + usersFeelings + '\n' + 
-'Что вкусное сегодня кушал(а)?' + '\n' + usersDinner + '\n' +
+'Что вкусное сегодня кушал?' + '\n' + usersDinner + '\n' +
 'К сожалению я робот и не кушаю, поэтому ваши человечьи вкусы мне не близки. Прощайте....' + '\n' +
 computerAnswerAndBye;
 
@@ -27,4 +28,4 @@ for (let i=firstRequestedNumber; i >= secondRequestedNumber; i--) {
     if (i % 2 === 0 || i % 5 === 0) { 
          console.log (i);
     }
-} 
+}
