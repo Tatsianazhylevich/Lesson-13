@@ -5,14 +5,13 @@ let usersFeelings = prompt(`Как твои дела, ${userName}?`);
 let usersDinner = prompt('Что вкусное сегодня кушал(а)?');
 let computerAnswerAndBye = prompt('К сожалению я робот и не кушаю, поэтому ваши человечьи вкусы мне не близки. Прощайте....', 'А так хорошо начинали, прощай!')
 
-console.log('Привет, как тебя зовут?');
-console.log(userName);
-console.log(`Как твои дела, ${userName}?`);
-console.log(usersFeelings);
-console.log('Что вкусное сегодня кушал?');
-console.log(usersDinner);
-console.log('К сожалению я робот и не кушаю, поэтому ваши человечьи вкусы мне не близки. Прощайте....');
-console.log(computerAnswerAndBye);
+result = 'Привет, как тебя зовут?' + '\n' + userName + '\n' + 
+`Как твои дела, ${userName}?` + '\n' + usersFeelings + '\n' + 
+'Что вкусное сегодня кушал?' + '\n' + usersDinner + '\n' +
+'К сожалению я робот и не кушаю, поэтому ваши человечьи вкусы мне не близки. Прощайте....' + '\n' +
+computerAnswerAndBye;
+
+console.log(result);
 
 // ==============================TASK 2=================================
 
