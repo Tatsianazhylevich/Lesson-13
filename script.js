@@ -19,13 +19,12 @@ console.log(result);
 let firstRequestedNumber = +prompt('Enter any number...');
 let secondRequestedNumber = +prompt('Enter another number...');
 
+if (firstRequestedNumber >= secondRequestedNumber) {
+    alert('Второе чило должно быть больше первого!');
+}
+
 for (let i=firstRequestedNumber; i <= secondRequestedNumber; i++) {
     if (i % 2 === 0 || i % 5 === 0) { 
          console.log (i);
     }
 } 
-for (let i=firstRequestedNumber; i >= secondRequestedNumber; i--) {
-    if (i % 2 === 0 || i % 5 === 0) { 
-         console.log (i);
-    }
-}
